@@ -33,6 +33,7 @@ QEMU is a **tool that pretends to be a computer** so you can run software (or ev
 * It can emulate (pretend to be) **different types of hardware** (CPU, disk, network cards, etc.).
 * It can run virtual machines **with or without** KVM.
 * When combined with KVM, it becomes much **faster** because KVM handles the hard parts using real hardware.
+* QEMU uses KVM to execute virtual machines.
 
 #### 📌 Example:
 
@@ -51,6 +52,7 @@ libvirt is like a **manager** or **remote control** for your virtual machines.
 * It helps you **create**, **start**, **stop**, **pause**, and **delete** VMs.
 * It talks to QEMU/KVM and gives you a simple way to manage everything.
 * You can use **commands**, **GUIs** (like **Virt-Manager**), or **APIs** to control your VMs using libvirt.
+* libvirt provides a management abstraction layer.
 
 #### 📌 Example:
 
