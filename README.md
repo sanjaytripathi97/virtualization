@@ -1,9 +1,5 @@
 # virtualization
 
-Absolutely! Let's break down **KVM**, **QEMU**, and **libvirt** in very simple terms, like explaining to someone who’s just starting with virtualization or Linux.
-
----
-
 ### 🧱 1. **What is KVM?**
 
 **KVM = Kernel-based Virtual Machine**
@@ -88,5 +84,3 @@ Let’s imagine:
 | **libvirt** | Manages VMs via QEMU/KVM   | The dashboard or remote control       |
 
 ---
-
-Let me know if you want a visual diagram or how to actually create a VM with these tools!
